@@ -1,0 +1,69 @@
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
+
+body {
+    margin: 0px 10px;
+    background: white;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: monospace;
+}
+
+p {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+header {
+    margin: 5px 0px;
+    padding: 50px;
+    color: white;
+    background: #588C94;
+    height: 100px;
+}
+
+.div-inside-main {
+    width: 500px;
+    margin: 60px auto;
+}
+
+.skills {
+    margin: 5px 0px;
+    padding: 5px;
+    color: white;
+    background: #1D3C41;
+}
+
+.div-columns {
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    width: 800px;
+}
+
+.div-column {
+    margin: 5px;
+    padding: 5px;
+}
